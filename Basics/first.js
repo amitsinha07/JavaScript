@@ -183,7 +183,60 @@ console.log(c1, c2);*/
 // console.log(myDate.getDay());
 // console.log(myDate.getMinutes());
 
+// var date = "22/02/2021";
+
+// Date_format(date);
+
+// function Date_format(date){
+
+//     var dd = date.slice(0,2);
+//     var mm = date.slice(3,5);
+//     var yy = date.slice(7,10);
+//     var mmddyy = mm + "/" + dd + "/" + yy;
+//     return mmddyy;
+// }
 
 
+//////////////////////////////////////////////
+//////////// Sets in JavaScript //////////////
+//////////////////////////////////////////////
+
+// Set stores unique values
+
+// const mySet = new Set();
+
+// mySet.add('This');
+// mySet.add('my name');
+// mySet.add('this');
+// mySet.add('That');
+// mySet.add('true');
+// mySet.add('false');
+// mySet.add('That2');
+
+// console.log('The set looks like ',mySet);
+// console.log(mySet.size); // Get set size
+// console.log(mySet.has('this')); // check whether set has 'this' or not
+
+
+// Iterating a set
+
+// for(let item of mySet){
+//     console.log("Item is : ",item);
+// }
+
+// mySet.forEach((item)=>{
+//     console.log('Item is: ', item);
+// })
+
+
+// function distinctCount(array) {
+//     let mySet = new Set();
+//     for(let i=0; i<array.length;i++){
+//         mySet.add(array[i]);
+//     }
+//     return mySet.size;
+// }
+
+// console.log(distinctCount([1,2,1,2,1]));
 
 
