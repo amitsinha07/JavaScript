@@ -245,12 +245,12 @@ console.log(c1, c2);*/
 ////// Map Data Structure in JavaScript /////
 /////////////////////////////////////////////
 
-const myMap = new Map();
-const key1 = 'myStr', key2 = {}, key3 = function(){};
-myMap.set(key1, 'This is a string');
-myMap.set(key2, 'This a blank obj');
-myMap.set(key3, 'This is an empty function' );
-console.log(myMap.size);
+// const myMap = new Map();
+// const key1 = 'myStr', key2 = {}, key3 = function(){};
+// myMap.set(key1, 'This is a string');
+// myMap.set(key2, 'This a blank obj');
+// myMap.set(key3, 'This is an empty function' );
+// console.log(myMap.size);
 
 // let value1 = myMap.get(key3);
 // console.log(value1);
@@ -268,16 +268,19 @@ console.log(myMap.size);
 
 //Converting map to an array 
 
-let myArray = Array.from(myMap);
-console.log('Map to array is ',myArray);
+// let myArray = Array.from(myMap);
+// console.log('Map to array is ',myArray);
 
-let myKeysArray = Array.from(myMap.keys());
-console.log('Map to keys array is ',myKeysArray);
+// let myKeysArray = Array.from(myMap.keys());
+// console.log('Map to keys array is ',myKeysArray);
 
-let myValuesArray = Array.from(myMap.values());
-console.log('Map to values array is ', myValuesArray);
+// let myValuesArray = Array.from(myMap.values());
+// console.log('Map to values array is ', myValuesArray);
 
 
+/////////////////////////////////////////////////////////////
+/////////////////// JavaScript Promises /////////////////////
+/////////////////////////////////////////////////////////////
 
 
 
