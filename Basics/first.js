@@ -282,7 +282,7 @@ console.log(c1, c2);*/
 /////////////////// JavaScript Promises //////////////////////
 //////////////////////////////////////////////////////////////
 
-function func1() {
+/*function func1() {
     return new Promise(function (resolve, reject){
         setTimeout(()=>{
             const error = true;
@@ -301,5 +301,5 @@ func1().then(function(){
     console.log("Amit: Thanks for resolving");
 }).catch(function(error){
     console.log("Amit: Very bad bro. Reason: " + error);
-})
+})*/
 
