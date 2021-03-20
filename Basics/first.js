@@ -307,18 +307,35 @@ func1().then(function(){
 ///////////// Fetch API in JavaScript //////////////////
 ////////////////////////////////////////////////////////
 
-function getData(){
+/*function getData(){
     console.log("Started getData");
-    url = "Amit.txt";
+    url = "https://api.github.com/users";
     fetch(url).then((response)=>{
         console.log("Inside first then");
-        return response.text();
+        return response.json();
     }).then((data)=>{
         console.log("Inside second then");
         console.log(data);
     })
+}*/
+
+/*function postData() {
+  url = "http://dummy.restapiexample.com/api/v1/create";
+  data = { name: "Amit07565", salary: "12356", age: "2367" };
+  params = {
+    method: "post",
+    headers: {
+      "Content-Type": "application/json",
+    },
+    body: data,
+  };
+
+  fetch(url, params).then(response => response.jason())
+  .then(data=> console.log(data)
+  )
 }
 
-console.log("Before running getData");
-getData();
-console.log("After running getData");
+postData();*/
+
+
+
