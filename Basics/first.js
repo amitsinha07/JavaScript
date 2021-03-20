@@ -307,3 +307,18 @@ func1().then(function(){
 ///////////// Fetch API in JavaScript //////////////////
 ////////////////////////////////////////////////////////
 
+function getData(){
+    console.log("Started getData");
+    url = "Amit.txt";
+    fetch(url).then((response)=>{
+        console.log("Inside first then");
+        return response.text();
+    }).then((data)=>{
+        console.log("Inside second then");
+        console.log(data);
+    })
+}
+
+console.log("Before running getData");
+getData();
+console.log("After running getData");
