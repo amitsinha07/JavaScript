@@ -338,4 +338,23 @@ func1().then(function(){
 postData();*/
 
 
+///////////////////////////////////////////////////////////
+/////////////// Async/Await in JavaScript /////////////////
+///////////////////////////////////////////////////////////
+
+/*async function Amit(){
+    console.log("Inside Amit Function");
+    const response = await fetch("https://api.github.com/users");
+    console.log('before response');
+    const users = await response.json();
+    console.log('users resolved');
+    return users;
+}
+
+console.log("Before calling Amit");
+let a = Amit();
+console.log("After calling Amit");
+console.log(a);
+a.then(data=> console.log(data))
+console.log("Last line of this js file");*/
 
